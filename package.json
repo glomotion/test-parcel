@@ -1,0 +1,33 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "A Vue.js project",
+  "author": "Maxime Rossier <rossier@visioncompliance.ch>",
+  "private": true,
+  "scripts": {
+    "dev": "parcel index.html --open",
+    "build": "parcel build index.html --public-url ./"
+  },
+  "dependencies": {
+    "vue": "^2.4.2",
+    "vue-router": "^2.7.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "babel-plugin-dynamic-import-node": "^1.2.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-2": "^6.22.0",
+    "parcel-bundler": "^1.6.2",
+    "parcel-plugin-vue": "^1.5.0"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
