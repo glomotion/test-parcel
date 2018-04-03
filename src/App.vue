@@ -1,12 +1,12 @@
 <template>
-  <div id="app" class="a">
+  <div id="app" class="app">
     <h1>Hello {{ title }} 🚀</h1>
     <p>📦 Parcel Vue.js Example</p>
     <router-link to="/a"/>
-      a
-    </router-link>
+      goto: a
+    </router-link> |
     <router-link :to="{ name: 'b' }"/>
-      b
+      goto: b
     </router-link>
     <router-view></router-view>
   </div>
@@ -29,6 +29,15 @@
     text-align: center;
     color: #333333;
     margin-top: 60px;
+    background-color: rebeccapurple;
+
+    & .a {
+      background-color: yellowgreen;
+    }
+
+    & .b {
+      background-color: gold;
+    }
   }
 
   h1 {

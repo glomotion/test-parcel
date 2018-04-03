@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import App from './App.vue'
-import './css'
 
 const a = () => import('./a')
 const b = () => import('./b')
