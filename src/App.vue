@@ -24,7 +24,7 @@ export default {
 #app {
   font-family: Helvetica, Arial, sans-serif;
   text-align: center;
-  color: #333333;
+  color: #fff;
   margin-top: 60px;
   background-color: rebeccapurple; /*test for postcss syntax*/
 
@@ -41,5 +41,9 @@ export default {
 h1 {
   font-weight: lighter;
   color: #42b983;
+}
+
+#app a {
+  color: gold;
 }
 </style>
